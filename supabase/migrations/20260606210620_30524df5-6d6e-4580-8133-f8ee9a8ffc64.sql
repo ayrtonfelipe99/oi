@@ -1,0 +1,1 @@
+ALTER TABLE public.product_models ADD COLUMN IF NOT EXISTS min_quantity integer NOT NULL DEFAULT 0;
